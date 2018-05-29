@@ -1,0 +1,11 @@
+server:
+  port: 8085
+  context-path: /jobserver
+
+size: 5
+age: 18
+content: "size: ${size}, age: ${age}"
+
+pro:
+    pro1: 3
+    pro2: 4

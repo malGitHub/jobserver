@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.30.50.22/navinfo_wedrive_200_1209
+    username: admin
+    password: admin123
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
